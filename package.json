@@ -4,9 +4,11 @@
   "description": "NBA statistics and analytics AI agent powered by DigitalOcean Gradient AI Platform",
   "main": "serve.py",
   "scripts": {
-    "start": "python3 serve.py",
-    "dev": "python3 serve.py 8080",
-    "serve": "python3 -m http.server 8080"
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx http-server . -p 8080 -o",
+    "serve": "npx http-server . -p 8080",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,8 @@
   },
   "homepage": "https://github.com/elizabethsiegle/nba-stats-gradient-ai-agent#readme",
   "engines": {
-    "python": ">=3.8"
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   },
   "devDependencies": {},
   "dependencies": {}
