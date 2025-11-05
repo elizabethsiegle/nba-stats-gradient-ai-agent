@@ -4,9 +4,9 @@
   "description": "NBA statistics and analytics AI agent powered by DigitalOcean Gradient AI Platform",
   "main": "serve.py",
   "scripts": {
-    "start": "npx http-server . -p 8080 -o",
-    "dev": "npx http-server . -p 8080 -o",
-    "serve": "npx http-server . -p 8080",
+    "start": "http-server . -p $PORT -a 0.0.0.0 --cors",
+    "dev": "http-server . -p 8080 -o",
+    "serve": "http-server . -p $PORT -a 0.0.0.0",
     "build": "echo 'No build step required for static site'",
     "test": "echo 'No tests specified'"
   },
@@ -36,5 +36,7 @@
     "npm": ">=6.0.0"
   },
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
 }
