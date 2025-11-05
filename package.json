@@ -1,6 +1,6 @@
 {
   "name": "nba-stats-gradient-ai-agent",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "NBA statistics and analytics AI agent powered by DigitalOcean Gradient AI Platform",
   "main": "server.js",
   "scripts": {
