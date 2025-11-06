@@ -1,41 +1,10 @@
 {
   "name": "nba-stats-gradient-ai-agent",
   "version": "1.1.0",
-  "description": "NBA statistics and analytics AI agent powered by DigitalOcean Gradient AI Platform",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "http-server . -p 8080 -o",
-    "serve": "http-server . -p $PORT -a 0.0.0.0",
-    "build": "echo 'No build step required for static site'",
-    "test": "echo 'No tests specified'"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elizabethsiegle/nba-stats-gradient-ai-agent.git"
-  },
-  "keywords": [
-    "nba",
-    "basketball",
-    "ai",
-    "agent",
-    "digitalocean",
-    "gradient",
-    "statistics",
-    "analytics",
-    "chatbot"
-  ],
-  "author": "elizabethsiegle",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/elizabethsiegle/nba-stats-gradient-ai-agent/issues"
-  },
-  "homepage": "https://github.com/elizabethsiegle/nba-stats-gradient-ai-agent#readme",
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
-  },
-  "devDependencies": {},
   "dependencies": {
     "express": "^4.18.2"
   }
